@@ -1,0 +1,529 @@
+[ {
+  "tasks" : [ {
+    "uniqueId" : null,
+    "directoryUniqueId" : null,
+    "source" : null,
+    "tags" : [ ],
+    "userName" : null,
+    "objectType" : "TaskDetails",
+    "sourceControlSettings" : null,
+    "description" : null,
+    "historyReferences" : [ "6a2c0b22ce45412b531c3a85" ],
+    "usedHistory" : "c69a77492a4ec2c546bbfd3d94d55737",
+    "sampleInput" : null,
+    "sampleOutput" : null,
+    "contentTab" : "",
+    "expiryTime" : 0,
+    "expiryCheckEnabled" : false,
+    "successiveTasks" : {
+      "incoming" : [ {
+        "taskId" : "script_1",
+        "taskName" : null,
+        "subflowId" : "KylUGULm",
+        "parentSubflowId" : "",
+        "taskType" : "start",
+        "flowName" : null,
+        "linkType" : null
+      } ]
+    },
+    "flowPathID" : null,
+    "ignoredForStatusComputation" : true,
+    "flowName" : null,
+    "subFlowID" : null,
+    "globalData" : null,
+    "input" : [ ],
+    "notificationMessage" : null,
+    "ancestor" : null,
+    "metaData" : {
+      "taskHeader" : "stop",
+      "hide" : false,
+      "lock" : false,
+      "successState" : 1,
+      "failoverState" : 2,
+      "taskScope" : null,
+      "hideFromStageView" : false,
+      "mode" : "Developer",
+      "nature" : null,
+      "lowCodeTask" : false
+    },
+    "parentSubFlowID" : null,
+    "helpContent" : null,
+    "orderInfo" : null,
+    "sanitizeGlobalVariables" : false,
+    "rules" : { },
+    "cleanUpFlowDetails" : { },
+    "subFlowDetails" : [ ],
+    "associatedRollbackWorkOrderDetail" : null,
+    "lockTimeExpired" : false,
+    "_id" : null,
+    "task_id" : "workflow_stop_1",
+    "task_name" : "Stop",
+    "task_type" : "stop",
+    "task_category" : "stop",
+    "component_type" : "others",
+    "setNullProperties" : true,
+    "folderName" : null,
+    "sub_group" : null,
+    "group_name" : null,
+    "viewable_type" : "custom"
+  }, {
+    "uniqueId" : "lmHUytFc",
+    "directoryUniqueId" : "lk7ARjWj",
+    "source" : "DEFAULT",
+    "tags" : [ "Script", "General" ],
+    "userName" : "DEFAULT",
+    "objectType" : "TaskDetails",
+    "sourceControlSettings" : null,
+    "description" : "",
+    "historyReferences" : [ "6a2c0b0460e2d928a14886e8", "6a2c0b1a89aa5b4467559457", "6a2c0b22ce45412b531c3a84", "6a2c0b1e7cca77167b190aef" ],
+    "usedHistory" : "3cf8a8ccec8b1e94e5acc0fda2bb3fef",
+    "sampleInput" : null,
+    "sampleOutput" : null,
+    "contentTab" : "",
+    "expiryTime" : 0,
+    "expiryCheckEnabled" : false,
+    "successiveTasks" : {
+      "incoming" : [ {
+        "taskId" : "workflow_start_1",
+        "taskName" : null,
+        "subflowId" : "KylUGULm",
+        "parentSubflowId" : "",
+        "taskType" : "start",
+        "flowName" : null,
+        "linkType" : null
+      } ],
+      "success" : [ {
+        "taskId" : "workflow_stop_1",
+        "taskName" : null,
+        "subflowId" : "KylUGULm",
+        "parentSubflowId" : "",
+        "taskType" : "stop",
+        "flowName" : null,
+        "linkType" : null
+      } ]
+    },
+    "flowPathID" : null,
+    "ignoredForStatusComputation" : false,
+    "flowName" : "",
+    "subFlowID" : "KylUGULm",
+    "globalData" : null,
+    "input" : [ ],
+    "notificationMessage" : {
+      "0" : "",
+      "1" : "",
+      "2" : ""
+    },
+    "ancestor" : null,
+    "metaData" : {
+      "taskHeader" : "Script",
+      "hide" : false,
+      "lock" : false,
+      "successState" : 1,
+      "failoverState" : 2,
+      "taskScope" : null,
+      "hideFromStageView" : false,
+      "mode" : "Developer",
+      "nature" : "normal",
+      "lowCodeTask" : false
+    },
+    "parentSubFlowID" : "",
+    "helpContent" : "<p>&lt;p&gt;Script task allows for defining of custom scripts (using python), business logic as part of the workflow automation process.&lt;/p&gt;</p>",
+    "orderInfo" : [ {
+      "userName" : "DEFAULT",
+      "order" : 677
+    }, {
+      "userName" : "karthikeyani.saravanabhavan@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "pandiyarajan.selvam@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "gowtham.karuppusamy@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "pradeep.saminathan@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "kavinprabhu.s@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "kishore.pandi@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "navaneeth.sekar@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "pranaav.raju@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "tamilvizhi.ravi@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "vanitha.arulmurugan_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "tamilvizhi.r@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "aasish.y@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "vanitha.a@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "vignesh.sivaprakasam@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "shafa",
+      "order" : 677
+    }, {
+      "userName" : "ragavan.m@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "Pradeep_CF",
+      "order" : 677
+    }, {
+      "userName" : "abirami.p@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "boopathiselvan.n@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "madhav.r",
+      "order" : 677
+    }, {
+      "userName" : "saravanan.b@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "pandiyarajan.s@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "bhuvaneshwaran.m@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "viswanath.m@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "sujith.cheruvathoorsunny_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "jeganath.k@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "venkateshprasad.suresh@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "vw_user",
+      "order" : 677
+    }, {
+      "userName" : "aashish.s@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "gowtham.kaliraj@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "rohith.v@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "pranaav.r@payoda.com",
+      "order" : 677
+    }, {
+      "userName" : "viswanath.mohanan@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "aasish.yerra@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "abirami.priya@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "ragavan.maniyan@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "vanitha.arulmurugan@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "balaji.thiruppathi@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "satheeshkumar.s@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "boopathiselvan.natar@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "nivetha.vadamalraj@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "saravanan.balasubram@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "afnanahmed.k@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "rohith.venkatachalam@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "tivya.venkatachalam@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "padmanabhan.s@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "testing_user_email",
+      "order" : 677
+    }, {
+      "userName" : "jeganath.kannan@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "boopathiselvan.nataraj_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "abirami.priya_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "bhuvaneshwaran.mohanraj_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "pranaav.raju_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "afnanahmed.khasimvittar@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "viswanath.mohanan_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "ragavan.maniyan_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "tamilvizhi.ravi_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "thameem.a@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "aswinkumar.vijayakumar_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "jayasuriya.easwaran@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "boopathiselvan.nataraj@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "aashish.sivakumar@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "sivaaswin.rathinam@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "bnyuser",
+      "order" : 677
+    }, {
+      "userName" : "aishwarya.karunamoorthy@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "qalocaluser",
+      "order" : 677
+    }, {
+      "userName" : "bhuvaneshwaran.mohanraj@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "saravanan.balasubramaniam@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "service_account",
+      "order" : 677
+    }, {
+      "userName" : "satheeshkumar.selvaraj@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "viswanadhapalli.h_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "manoj.devaraj@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "pradeepkumar.mahendran_ext@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "viswanadhapalli.harshith@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "Rabobank",
+      "order" : 677
+    }, {
+      "userName" : "test.test",
+      "order" : 677
+    }, {
+      "userName" : "bhuvaneshwaran.mohan",
+      "order" : 677
+    }, {
+      "userName" : "aswinkumar.vijayakumar@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "sriram.kumar@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "viswanadhapalli.h@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "NBS Test User",
+      "order" : 677
+    }, {
+      "userName" : "madhav.rajeev@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "venkateshprasad.s@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "umeshkrishna.jayapra@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "bhuvaneshwaran.mohan@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "revanth_kumar",
+      "order" : 677
+    }, {
+      "userName" : "praveenkumar.sekar@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "samyuktha.j@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "revanthkumar.ravuri@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "aravind.mohanchandar",
+      "order" : 677
+    }, {
+      "userName" : "ancyjemi.goldbel@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "noorafik.jalaludeen@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "test_user_download",
+      "order" : 677
+    }, {
+      "userName" : "sampreetha.s@appviewx.com",
+      "order" : 677
+    }, {
+      "userName" : "harish.jayaraj@appviewx.com",
+      "order" : 677
+    } ],
+    "sanitizeGlobalVariables" : false,
+    "name" : "",
+    "syncExecution" : true,
+    "lockTimeExpired" : false,
+    "_id" : null,
+    "task_id" : "script_1",
+    "task_name" : "Script",
+    "task_type" : "script",
+    "task_category" : "script",
+    "component_type" : "others",
+    "setNullProperties" : true,
+    "folderName" : null,
+    "sub_group" : "script",
+    "group_name" : "General",
+    "viewable_type" : "custom",
+    "scriptType" : "Python",
+    "scriptContent" : "from vw_common_utils_helper import AppViewX\n\navx = AppViewX(sessionId)\n\npayload = {\n    \"payload\":{\n\t\"startIndex\": 0,\n\t\"limit\": 100,\n\t\"searchParam\": \"\",\n\t\"containerID\": \"moduleListContainer\",\n\t\"objectViewMode\": \"all\",\n\t\"subsystem\": \"Device\"\n}}\nparams = {\"aclIdentifier\":\"super access\"}\nresponse = avx._execute_avxapi(\"POST\",\"device-list-acl\",payload=payload, params=params)\n\nAVX::LOG(response)\n\nAVX::OUTPUT({})",
+    "http_method" : "POST",
+    "action_id" : "run-script"
+  } ],
+  "subFlowID" : "KylUGULm",
+  "taskGlobalData" : {
+    "workflow_stop_1" : [ ],
+    "script_1" : [ ]
+  },
+  "type" : null,
+  "level" : 0,
+  "maxDepth" : 0,
+  "input" : null,
+  "workflowName" : "test Device ACL",
+  "description" : null,
+  "flowName" : null,
+  "workflowType" : "Default",
+  "subFlowType" : "Default",
+  "parentSubFlowID" : null,
+  "logs" : [ ],
+  "workflowVersion" : "master"
+}, {
+  "tasks" : [ {
+    "uniqueId" : null,
+    "directoryUniqueId" : null,
+    "source" : null,
+    "tags" : [ ],
+    "userName" : null,
+    "objectType" : "TaskDetails",
+    "sourceControlSettings" : null,
+    "description" : null,
+    "historyReferences" : [ ],
+    "usedHistory" : null,
+    "sampleInput" : null,
+    "sampleOutput" : null,
+    "contentTab" : "",
+    "expiryTime" : 0,
+    "expiryCheckEnabled" : false,
+    "successiveTasks" : { },
+    "flowPathID" : null,
+    "ignoredForStatusComputation" : true,
+    "flowName" : null,
+    "subFlowID" : null,
+    "globalData" : null,
+    "input" : [ ],
+    "notificationMessage" : null,
+    "ancestor" : null,
+    "metaData" : {
+      "taskHeader" : "stop",
+      "hide" : false,
+      "lock" : false,
+      "successState" : 1,
+      "failoverState" : 2,
+      "taskScope" : null,
+      "hideFromStageView" : false,
+      "mode" : "Developer",
+      "nature" : null,
+      "lowCodeTask" : false
+    },
+    "parentSubFlowID" : null,
+    "helpContent" : null,
+    "orderInfo" : null,
+    "sanitizeGlobalVariables" : false,
+    "rules" : { },
+    "cleanUpFlowDetails" : { },
+    "subFlowDetails" : [ ],
+    "associatedRollbackWorkOrderDetail" : null,
+    "lockTimeExpired" : false,
+    "_id" : null,
+    "task_id" : "workflow_stop_1",
+    "task_name" : "Stop",
+    "task_type" : "stop",
+    "task_category" : "stop",
+    "component_type" : "others",
+    "setNullProperties" : true,
+    "folderName" : null,
+    "sub_group" : null,
+    "group_name" : null,
+    "viewable_type" : "custom"
+  } ],
+  "subFlowID" : "nN1IUYu2",
+  "taskGlobalData" : {
+    "workflow_stop_1" : [ ]
+  },
+  "type" : null,
+  "level" : 0,
+  "maxDepth" : 0,
+  "input" : null,
+  "workflowName" : "test Device ACL",
+  "description" : null,
+  "flowName" : null,
+  "workflowType" : "Rollback",
+  "subFlowType" : "Default",
+  "parentSubFlowID" : null,
+  "logs" : [ ],
+  "workflowVersion" : "master"
+} ]

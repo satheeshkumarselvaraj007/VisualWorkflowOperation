@@ -1,0 +1,187 @@
+[ {
+  "workflowName" : "test Device ACL",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : "scheduledBy",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "KylUGULm",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : "taskState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "KylUGULm",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : "requestState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "KylUGULm",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : "loggedInUsername",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "KylUGULm",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : "requestCreator",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "KylUGULm",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : "workflowName",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "KylUGULm",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : "ticketNumber",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "KylUGULm",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : "requestId",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "KylUGULm",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  } ]
+}, {
+  "workflowName" : "test Device ACL",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : "ticketNumber",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nN1IUYu2",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : "loggedInUsername",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nN1IUYu2",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : "workflowName",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nN1IUYu2",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : "requestCreator",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nN1IUYu2",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : "taskState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nN1IUYu2",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : "requestId",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nN1IUYu2",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : "requestState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nN1IUYu2",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : "scheduledBy",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nN1IUYu2",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  } ]
+} ]
