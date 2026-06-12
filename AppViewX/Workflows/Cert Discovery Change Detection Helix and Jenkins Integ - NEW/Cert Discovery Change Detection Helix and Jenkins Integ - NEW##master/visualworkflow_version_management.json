@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "6a2bc60689aa5b44675590d7",
+  "workflowName" : "Cert Discovery Change Detection Helix and Jenkins Integ - NEW",
+  "workflowVersionName" : "master",
+  "source" : "master",
+  "description" : null,
+  "createdBy" : "bhuvaneshwaran.mohan@appviewx.com",
+  "lastModifiedTime" : 1781253638437,
+  "activeForRequest" : true,
+  "activeForInventory" : true,
+  "protectedVersion" : true
+}
