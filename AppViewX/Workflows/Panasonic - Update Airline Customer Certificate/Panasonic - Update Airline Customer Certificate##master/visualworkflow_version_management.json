@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "6a197a8fb8e001181d787c83",
+  "workflowName" : "Panasonic - Update Airline Customer Certificate",
+  "workflowVersionName" : "master",
+  "source" : "master",
+  "description" : null,
+  "createdBy" : "satheeshkumar.s@appviewx.com",
+  "lastModifiedTime" : 1780054671898,
+  "activeForRequest" : true,
+  "activeForInventory" : true,
+  "protectedVersion" : true
+}
