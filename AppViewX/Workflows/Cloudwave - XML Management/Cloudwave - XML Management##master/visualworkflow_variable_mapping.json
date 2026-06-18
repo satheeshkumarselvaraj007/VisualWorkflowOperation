@@ -1,0 +1,313 @@
+[ {
+  "workflowName" : "Cloudwave - XML Management",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : "taskState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : "requestCreator",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "uag_server_list",
+    "key" : "uag_server_list",
+    "value" : "uag_server_list",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : "script_2",
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Relaying Party Trust",
+    "key" : "relaying_party_trust",
+    "value" : "relaying_party_trust",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "TgX6tyGE",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "ADFS Server",
+    "key" : "adfs_server",
+    "value" : "adfs_server",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "TgX6tyGE",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : "ticketNumber",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : "workflowName",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Certificate",
+    "key" : "certificate",
+    "value" : "certificate",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ {
+      "taskId" : "script_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "TgX6tyGE",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "TgX6tyGE",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "uag_server_name",
+    "key" : "uag_server_name",
+    "value" : "uag_server_name",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : "script_2",
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "TgX6tyGE",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : "scheduledBy",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : "requestId",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : "loggedInUsername",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : "requestState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "UAG Server",
+    "key" : "uag_server",
+    "value" : "uag_server",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "TgX6tyGE",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ {
+      "taskId" : "script_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "TgX6tyGE",
+      "parentSubFlowID" : null
+    } ]
+  } ]
+}, {
+  "workflowName" : "Cloudwave - XML Management",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : "requestId",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "wxPWWjZu",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : "requestCreator",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "wxPWWjZu",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : "scheduledBy",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "wxPWWjZu",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : "requestState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "wxPWWjZu",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : "taskState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "wxPWWjZu",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : "ticketNumber",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "wxPWWjZu",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : "loggedInUsername",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "wxPWWjZu",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : "workflowName",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "wxPWWjZu",
+    "taskId" : null,
+    "dataType" : null,
+    "showToolTip" : false,
+    "destinationTasks" : [ ]
+  } ]
+} ]
